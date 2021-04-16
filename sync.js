@@ -8,8 +8,8 @@
 let cars=["Subaru","Mazda","Toyota","Lexus","Honda","Hyundai","VolksWagen"]
 let [car1,car2,car3,car4,car5,car6,car7]=cars
 console.log(car1);
-console.log(car3)
-console.log(car5)
+console.log(car3);
+console.log(car5);
 
 let car={
     brand:"Subaru",
@@ -26,7 +26,7 @@ console.log(color);
 
 // default operators
 let carBrand={
-    model:"Toyota",
+    model:"Toyota Hilux",
 }
 let {model,price=1500000,numberPlate="unknown"}=carBrand
 console.log(model);
@@ -49,3 +49,6 @@ for(let[key,value]of Object.entries(fruits)){
 let {fruit1,...rest}=fruits
 console.log(fruit1)
 console.log(rest.fruit4)
+
+
+
